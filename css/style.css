@@ -1,0 +1,115 @@
+/* 全体のスタイリング */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* ナビゲーションバーのスタイリング */
+  .navbar {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    padding: 0 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* プロモーションセクションのスタイリング */
+  .promo {
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .promo h1 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .promo-detail p, .download-info p {
+    color: #666;
+  }
+  
+  /* 検索バーのスタイリング */
+  .search input[type="search"] {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+  }
+  
+  /* 商品リストのスタイリング */
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .product-item {
+    width: calc(50% - 20px);
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .product-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-item h2 {
+    padding: 10px;
+    background-color: #f7f7f7;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* フッターのスタイリング */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  /* メディアクエリを使用して、画面サイズに応じたレスポンシブデザインを実装する */
+  @media (max-width: 768px) {
+    .product-item {
+      width: 100%;
+    }
+  }
+  
+  /* その他のカスタムスタイルを追加 */
+  
