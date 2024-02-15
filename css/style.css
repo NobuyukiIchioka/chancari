@@ -15,8 +15,7 @@ a {
   
   /* headerのスタイリング */
 .header-container {
-  background-color: #ffffff; /* 背景色は白 */
-  padding: 10px 20px; /* 上下左右のパディング */
+  background-color: #fff; /* 背景色は白 */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 下部に影を追加 */
 }
 
@@ -65,11 +64,32 @@ a {
 .nav-links a:hover {
   background-color: #2BDC8E; /* ホバー時の背景色 */
   color: #ffffff; /* ホバー時のテキスト色 */
-  font-weight: bold;
+  font-weight: 550;
 }
 
-/* レスポンシブ対応 */
-@media (max-width: 768px) {
+
+
+/* フッターのスタイリング */
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-links a {
+  text-decoration: none;
+  color: black;
+}
+.footer-links a div {
+  text-align: center;
+}
+.footer-links a div img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+/* レスポンシブ対応 PC画面対応*/
+@media (min-width: 769px) {
 
   .main-nav {
     width: 100%;
@@ -79,9 +99,8 @@ a {
 
 
 
-
   /* --------------------------------  プロモーションセクションのスタイリング */
-  .promo {
+  /* .promo {
     background-color: #f3f3f3;
     padding: 20px;
     text-align: center;
@@ -94,6 +113,6 @@ a {
   
   .promo-detail p, .download-info p {
     color: #666;
-  }
+  } */
   
   
