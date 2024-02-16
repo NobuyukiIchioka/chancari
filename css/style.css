@@ -16,7 +16,7 @@ a {
   /* headerのスタイリング */
 .header-container {
   background-color: #fff; /* 背景色は白 */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 下部に影を追加 */
+  box-shadow: 0 2px 0 rgba(112, 112, 112, 0.1); /* 下部に影を追加 */
 }
 
 /* logoのスタイリング */
@@ -70,18 +70,34 @@ a {
 
 
 /* フッターのスタイリング */
-.footer-links {
+.footer-container {
+  box-shadow: 0 -2px 0 rgba(112, 112, 112, 0.1);
+
   display: flex;
   justify-content: space-around;
 }
-.footer-links a {
+
+.footer-container a {
   text-decoration: none;
-  color: black;
+  color: #222;
+  width: 35%;
+  padding-top: 19px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.footer-links a div {
+
+.footer-container a:hover {
+  background-color: #F5F5F5;
+}
+
+.footer-container a div {
   text-align: center;
 }
-.footer-links a div img {
+
+.footer-container a div img {
   width: 50px;
   height: 50px;
 }
