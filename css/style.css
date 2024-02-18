@@ -17,9 +17,16 @@ a {
 .header-container {
   background-color: #fff; /* 背景色は白 */
   box-shadow: 0 2px 0 rgba(112, 112, 112, 0.1); /* 下部に影を追加 */
+  width: 100%;
+  padding: 0 14px 11.5px 0;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
 }
 
-/* logoのスタイリング */
+/* logo*/
 .logo .logo-container a {
   display: flex;
   justify-content: center;
@@ -37,7 +44,7 @@ a {
 .main-nav {
   color: #666;
   font-size: 21px;
-  padding: 3 20px;
+  /* padding: 3 20px; */
 
   display: flex;
   justify-content: space-between;
@@ -45,6 +52,10 @@ a {
 }
 
 /* ナビゲーションリンクのスタイリング */
+.main-nav p{
+  margin: 0 14px;
+}
+
 .nav-links {
   list-style-type: none;
   display: flex;
@@ -68,20 +79,29 @@ a {
 }
 
 
+main{
+  height: 1000px;
+}
+
 
 /* フッターのスタイリング */
 .footer-container {
+  width: 100%;
   box-shadow: 0 -2px 0 rgba(112, 112, 112, 0.1);
+  font-size: 24px;
 
   display: flex;
   justify-content: space-around;
+
+  position: fixed;
+  bottom: 0px;
+
 }
 
 .footer-container a {
   text-decoration: none;
   color: #222;
   width: 35%;
-  padding-top: 19px;
 
   display: flex;
   justify-content: center;
@@ -93,14 +113,25 @@ a {
   background-color: #F5F5F5;
 }
 
-.footer-container a div {
+
+.footer-container a img{
+  margin: 12px;
+}
+
+.footer-container a p{
+  margin-bottom: 13px;
+}
+
+
+
+/* .footer-container a div {
   text-align: center;
 }
 
 .footer-container a div img {
   width: 50px;
   height: 50px;
-}
+} */
 
 
 
