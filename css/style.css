@@ -6,6 +6,7 @@ body, h1, ul, li, a {
   margin: 0;
   padding: 0;
   font-family: "メイリオ", Meiryo, sans-serif;
+  color: #666;
 }
 a {
   color: inherit;
@@ -41,8 +42,7 @@ a {
 }
 
 /* ナビゲーションのスタイリング */
-.main-nav {
-  color: #666;
+.navi{
   font-size: 21px;
   /* padding: 3 20px; */
 
@@ -52,7 +52,7 @@ a {
 }
 
 /* ナビゲーションリンクのスタイリング */
-.main-nav p{
+.navi p{
   margin: 0 14px;
 }
 
@@ -79,9 +79,45 @@ a {
 }
 
 
-main{
-  height: 1000px;
+
+
+/* main ********************/
+/* .main-container{
+  padding-top: 144px; */
+
+  /* mainコンテナのスタイリング */
+
+.main-container {
+  background-image: url('../img/main-visual.png'); /* 実際の画像パスに置き換えてください */
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 833px;
+  position: relative; /* 画像にテキストをオーバーレイするためのポジショニング */
+  padding-top: 144px;
+  color: #2BDC8E;
 }
+.main-container h1 {
+  font-size: 53px; /* タイトルのフォントサイズ */
+  color: #2BDC8E;
+  margin: 50.8px 0 229px;
+}
+.main-container h2 {
+  font-size: 1.5em; /* サブタイトルのフォントサイズ */
+  margin-bottom: 1em;
+}
+.main-container p {
+  font-size: 1em; /* テキストのフォントサイズ */
+  line-height: 1.6; /* 行の高さ */
+  margin-bottom: 1em;
+}
+
+
+
+
+
+
+
 
 
 /* フッターのスタイリング */
