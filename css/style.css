@@ -97,19 +97,32 @@ a {
   padding-top: 144px;
   color: #2BDC8E;
 }
+
 .main-container h1 {
   font-size: 53px; /* タイトルのフォントサイズ */
+  font-family: "小塚ゴシック Pr6N", "Kozuka Gothic Pr6N", Arial, sans-serif;
+  font-weight: bold;
   color: #2BDC8E;
   margin: 50.8px 0 229px;
 }
-.main-container h2 {
-  font-size: 1.5em; /* サブタイトルのフォントサイズ */
-  margin-bottom: 1em;
+
+.sabu-title{
+  background-color: rgb(251, 251, 251, 0.82);
+  width: 408px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 15px 10px;
 }
+
+.main-container h2 {
+  font-size: 24px; /* サブタイトルのフォントサイズ */
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
 .main-container p {
-  font-size: 1em; /* テキストのフォントサイズ */
-  line-height: 1.6; /* 行の高さ */
-  margin-bottom: 1em;
+  font-size: 19px; /* テキストのフォントサイズ */
+  line-height: 1.45; /* 行の高さ */
 }
 
 
