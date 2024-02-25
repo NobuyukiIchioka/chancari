@@ -1,0 +1,36 @@
+.footer-container {
+  width: 100%;
+  box-shadow: 0 -2px 0 rgba(112, 112, 112, 0.1);
+  font-size: 24px;
+
+  display: flex;
+  justify-content: space-around;
+
+  position: fixed;
+  bottom: 0px;
+
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: #222;
+  width: 35%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-container a:hover {
+  background-color: #F5F5F5;
+}
+
+
+.footer-container a img{
+  margin: 12px;
+}
+
+.footer-container a p{
+  margin-bottom: 13px;
+}

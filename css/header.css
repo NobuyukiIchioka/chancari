@@ -1,0 +1,61 @@
+   /* header全体のスタイリング */
+.header-container {
+  background-color: #fff; 
+  box-shadow: 0 2px 0 rgba(112, 112, 112, 0.1); 
+  width: 100%;
+  padding: 0 14px 11.5px 0;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+/* logo*/
+.logo .logo-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  height: auto;
+}
+.title-img{
+  height: 44px;
+}
+
+/* ナビゲーション */
+.navi{
+  font-size: 21px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navi p{
+  margin: 0 14px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 10px;
+}
+
+.nav-links a {
+  text-decoration: none; /* aタグの下線を消す */
+  padding: 5px 10px; 
+  border-radius: 5px; /* ボタンのように角を丸くする */
+  transition: background-color 1.2s ease; /* 背景色の変化を滑らかに */
+}
+
+.nav-links a:hover {
+  background-color: #2BDC8E; /* ホバー時の背景色 */
+  color: #ffffff; /* ホバー時のテキスト色 */
+  font-weight: 550;
+}

@@ -14,70 +14,7 @@ a {
 }
 
   
-  /* headerのスタイリング */
-.header-container {
-  background-color: #fff; /* 背景色は白 */
-  box-shadow: 0 2px 0 rgba(112, 112, 112, 0.1); /* 下部に影を追加 */
-  width: 100%;
-  padding: 0 14px 11.5px 0;
-
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 1;
-}
-
-/* logo*/
-.logo .logo-container a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo-img {
-  height: auto;
-}
-.title-img{
-  height: 44px;
-}
-
-/* ナビゲーションのスタイリング */
-.navi{
-  font-size: 21px;
-  /* padding: 3 20px; */
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* ナビゲーションリンクのスタイリング */
-.navi p{
-  margin: 0 14px;
-}
-
-.nav-links {
-  list-style-type: none;
-  display: flex;
-}
-
-.nav-links li {
-  margin-left: 10px;
-}
-
-.nav-links a {
-  text-decoration: none; /* aタグの下線を消す */
-  padding: 5px 10px; /* リンクのパディング */
-  border-radius: 5px; /* ボタンのように角を丸くする */
-  transition: background-color 1.2s ease; /* 背景色の変化を滑らかに */
-}
-
-.nav-links a:hover {
-  background-color: #2BDC8E; /* ホバー時の背景色 */
-  color: #ffffff; /* ホバー時のテキスト色 */
-  font-weight: 550;
-}
-
+ 
 
 
 
@@ -127,63 +64,6 @@ a {
 
 
 
-
-
-
-
-
-
-/* フッターのスタイリング */
-.footer-container {
-  width: 100%;
-  box-shadow: 0 -2px 0 rgba(112, 112, 112, 0.1);
-  font-size: 24px;
-
-  display: flex;
-  justify-content: space-around;
-
-  position: fixed;
-  bottom: 0px;
-
-}
-
-.footer-container a {
-  text-decoration: none;
-  color: #222;
-  width: 35%;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.footer-container a:hover {
-  background-color: #F5F5F5;
-}
-
-
-.footer-container a img{
-  margin: 12px;
-}
-
-.footer-container a p{
-  margin-bottom: 13px;
-}
-
-
-
-/* .footer-container a div {
-  text-align: center;
-}
-
-.footer-container a div img {
-  width: 50px;
-  height: 50px;
-} */
-
-
-
 /* レスポンシブ対応 PC画面対応*/
 @media (min-width: 769px) {
 
@@ -193,22 +73,4 @@ a {
 
 }
 
-
-
-  /* --------------------------------  プロモーションセクションのスタイリング */
-  /* .promo {
-    background-color: #f3f3f3;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .promo h1 {
-    margin: 0;
-    color: #333;
-  }
-  
-  .promo-detail p, .download-info p {
-    color: #666;
-  } */
-  
   
