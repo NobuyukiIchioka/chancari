@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/header.css">
 <link rel="stylesheet" href="css/footer.css">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<!-- ファビコン画像 -->
 <!-- 動的にスタイルシートリンクを追加 -->
 <?php
 if (isset($addCSS)) {
