@@ -8,14 +8,24 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/header.css">
 <link rel="stylesheet" href="css/footer.css">
-<link rel="icon" href="img/favicon.ico" type="image/x-icon">
-<!-- ファビコン画像 -->
-<!-- 動的にスタイルシートリンクを追加 -->
+<link rel="icon" href="img/favicon.ico" type="image/x-icon"><!-- ファビコン画像 -->
+<!-- CSSシートを動的に追加 -->
 <?php
+#if (isset($addCSS)) {
+#    echo '<link rel="stylesheet" href="css/'.$addCSS.'">';
+#}
+
 if (isset($addCSS)) {
-    echo '<link rel="stylesheet" href="css/'.$addCSS.'">';
+    if (is_array($addCSS)) {
+        foreach ($addCSS as $cssFile) {
+            echo '<link rel="stylesheet" href="css/'.$cssFile.'">';
+        }
+    } else {
+        echo '<link rel="stylesheet" href="css/'.$addCSS.'">';
+    }
 }
 ?>
+
 </head>
 
 <body>
@@ -23,20 +33,21 @@ if (isset($addCSS)) {
 <div class="header-container">
   <div class="logo">
     <div class="logo-container">
-    <a href="./index.html">
-      <img class="logo-img" src="./img/logo.png" alt="chancariのロゴ">
-      <img class="title-img" src="./img/svg/chancari.svg" alt="chancariのタイトル">
+    <a href="./index.php">
+      <img class="logo-img" src="./img/logo.png" alt="ロゴ">
+      <img class="title-img" src="./img/svg/chancari.svg" alt="タイトル">
     </a>
     </div>
   </div>
 
-  <nav class="navi">
+  <nav class="navi header1">
     <p>ようこそ！</p>
     <ul class="nav-links">
-      <li><a href="./login.html">新規登録</a></li>
-      <li><a href="./login.html">ログイン</a></li>
+      <li><a href="./login.php">新規登録</a></li>
+      <li><a href="./login.php">ログイン</a></li>
     </ul>
   </nav>
+
+  <div class="header2">ログイン</div>
 </div><!-- header-container -->
 </header>
-

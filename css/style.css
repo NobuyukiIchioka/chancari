@@ -13,25 +13,19 @@ a {
   text-decoration: none;
 }
 
-  
- 
-
-
-
-/* main ********************/
-/* .main-container{
+main{/* headerの幅の確保のため */
+  /* position: relative; 
   padding-top: 144px; */
+}  
 
+/**** HOME ********************/
   /* mainコンテナのスタイリング */
-
 .main-container {
   background-image: url('../img/main-visual.png'); /* 実際の画像パスに置き換えてください */
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-  height: 833px;
-  position: relative; /* 画像にテキストをオーバーレイするためのポジショニング */
-  padding-top: 144px;
+  height: 457px;
   color: #2BDC8E;
 }
 
@@ -40,7 +34,7 @@ a {
   font-family: "小塚ゴシック Pr6N", "Kozuka Gothic Pr6N", Arial, sans-serif;
   font-weight: bold;
   color: #2BDC8E;
-  margin: 50.8px 0 229px;
+  margin: 50.8px 0 228px;
 }
 
 .sabu-title{

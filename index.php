@@ -1,12 +1,13 @@
 
 <?php
 $pageTitle = 'HOME'; // ページタイトルを設定
-$addCSS = 'style.css'; // このページ固有のCSSを設定
+#$addCSS = 'style.css'; // このページ固有のCSSを設定
+$addCSS = ['style.css']; // このページ固有のCSSを設定、複数指定可能に変更
 include 'includes/header.php'; 
 ?>
-<!-- <?php include 'includes/header.php'; ?> -->
-<main>
-<div class="main-container">
+
+
+<main class="main-container">
 
     <h1>チャンカリ</h1>
     <div class="sabu-title">
@@ -18,6 +19,6 @@ include 'includes/header.php';
         モノの貸し借りを通じて素敵な体験をしよう！
       </p>
     </div>
-</div><!-- main-container -->
-</main>
+
+</main><!-- main-container -->
 <?php include 'includes/footer.php'; ?>
