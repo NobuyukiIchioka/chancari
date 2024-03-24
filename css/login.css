@@ -1,0 +1,73 @@
+/* 全体のスタイリング */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body, h1, ul, li, a {
+  margin: 0;
+  padding: 0;
+  font-family: "メイリオ", Meiryo, sans-serif;
+  color: #666;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ---------headerの変更--------- */
+.header00{
+  display: none;
+}
+
+/* デフォルトがdisplay:none */
+.header01{
+  font-size: 24px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+
+/* ---------mainの変更--------- */
+.login-container {
+    margin:0 12.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 43px;
+  width: 100%;
+  max-width: 568px;
+
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #707070; 
+  border-radius: 25px;
+  
+  background: transparent; /* デフォルトの背景をクリア */
+  font-family: inherit; /* 親要素のフォントファミリーを継承 */
+  cursor: pointer; /* マウスカーソルをポインターに設定 */
+  outline: none; /* フォーカス時のアウトラインをクリア */
+  -webkit-appearance: none; /* iOSのデフォルトスタイルを無効化 */
+  -moz-appearance: none; /* Firefoxのデフォルトスタイルを無効化 */
+  appearance: none; /* 最新のブラウザでのデフォルトスタイルを無効化 */
+}
+
+.login{
+  color: black;
+  margin-bottom: 29px;
+}
+
+.register{
+  color: #2BDC8E;
+  border-color: #2BDC8E;
+  text-align: center;
+  text-decoration: none;
+}
