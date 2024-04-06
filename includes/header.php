@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><?php echo $pageTitle; ?></title> <!-- ページタイトルを動的に設定 -->
-<link rel="stylesheet" href="css/HTML5 Doctor CSS Reset.css">
+<!-- <link rel="stylesheet" href="css/HTML5 Doctor CSS Reset.css"> -->
 <link rel="stylesheet" href="css/destyle.css"><!-- reset.css destyle　強めなリセット -->
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/header.css">

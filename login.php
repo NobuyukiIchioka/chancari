@@ -9,30 +9,16 @@ include 'includes/header.php';
   <img class="logo-google" src="./img/logo_google.png" alt="logo_google">
   <a href="./home.php"  class="login btn">Googleでログイン</a>
   <!-- <button class="login btn">Googleでログイン</button> -->
-  <div class="alternative">
+  <div class="login-notice">
     <p>Googleアカウントでのログインをお願いしています。</p>
     <p>※アカウントがない方は取得はお願い致します。</p>
   </div>
-  <div class="separator"><span>または</span></div>
-  <div>アカウントをお持ちでない方</div>
+  <p class="custom-separator">
+  <h2 class="account">アカウントをお持ちでない方</h2>
   <a href="./home.php" class="register btn">新規登録</a>
   <!-- <button class="register btn">新規登録</button> -->
 </div>
 
 </main>
 <?php include 'includes/footer.php'; ?>
-
-
-<style>
-
-  .separator {
-    text-align: center;
-    margin: 20px 0;
-    line-height: 1px;
-    background: #e0e0e0;
-  }
-
-
-
-</style>
 

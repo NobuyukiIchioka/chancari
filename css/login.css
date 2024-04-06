@@ -65,9 +65,28 @@ a {
   margin-bottom: 29px;
 }
 
+.login-notice{
+  font-size: 14px;
+  margin-bottom: 67.5px;
+}
+
+.login-container > h2 {
+  color: black;
+  margin-bottom: 11px;
+}
+
 .register{
   color: #2BDC8E;
   border-color: #2BDC8E;
   text-align: center;
   text-decoration: none;
+}
+
+p.custom-separator {
+  height: 2px !important;
+  width: 100% !important;
+  max-width: 568px !important;
+  background-color: #707070 !important;
+  opacity: 0.5;
+  margin-bottom: 27.5px !important;
 }
